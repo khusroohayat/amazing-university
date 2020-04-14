@@ -45,12 +45,13 @@
                     $existStatus = 'yes';
                 }
               ?>
+            
+            <?php the_content(); ?>
             <span class="like-box" data-exists="<?php echo $existStatus; ?>">
                 <i class="fa fa-heart-o" aria-hidden="true"></i>
                 <i class="fa fa-heart" aria-hidden="true"></i>
                 <span class="like-count"><?php echo $likeCount->found_posts; ?></span>
             </span>
-            <?php the_content(); ?>
           </div>
 
         </div>
