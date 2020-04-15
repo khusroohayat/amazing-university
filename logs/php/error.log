@@ -182,3 +182,315 @@ Stack trace:
 [12-Apr-2020 17:59:28 UTC] PHP Parse error:  syntax error, unexpected '>' in C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-content\themes\fictional-university-theme\header.php on line 34
 [12-Apr-2020 18:00:21 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-content\themes\fictional-university-theme\header.php on line 37
 [13-Apr-2020 07:29:36 UTC] PHP Parse error:  syntax error, unexpected '.' in C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-content\themes\fictional-university-theme\functions.php on line 133
+[14-Apr-2020 16:05:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\post.php on line 3984
+[14-Apr-2020 16:05:49 UTC] PHP Stack trace:
+[14-Apr-2020 16:05:49 UTC] PHP   1. {main}() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:0
+[14-Apr-2020 16:05:49 UTC] PHP   2. require() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:17
+[14-Apr-2020 16:05:49 UTC] PHP   3. wp() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-blog-header.php:16
+[14-Apr-2020 16:05:49 UTC] PHP   4. WP->main() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\functions.php:1274
+[14-Apr-2020 16:05:49 UTC] PHP   5. WP->parse_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:735
+[14-Apr-2020 16:05:49 UTC] PHP   6. do_action_ref_array() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:388
+[14-Apr-2020 16:05:49 UTC] PHP   7. WP_Hook->do_action() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\plugin.php:544
+[14-Apr-2020 16:05:49 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:311
+[14-Apr-2020 16:05:49 UTC] PHP   9. rest_api_loaded() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:287
+[14-Apr-2020 16:05:49 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php:306
+[14-Apr-2020 16:05:49 UTC] PHP  11. WP_REST_Server->dispatch() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api\class-wp-rest-server.php:342
+[14-Apr-2020 16:05:49 UTC] PHP  12. createLike() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api\class-wp-rest-server.php:1015
+[14-Apr-2020 16:05:49 UTC] PHP  13. wp_insert_post() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-content\themes\fictional-university-theme\inc\like-route.php:18
+[14-Apr-2020 16:05:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\post.php:3984) in C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api\class-wp-rest-server.php on line 1337
+[14-Apr-2020 16:05:50 UTC] PHP Stack trace:
+[14-Apr-2020 16:05:50 UTC] PHP   1. {main}() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:0
+[14-Apr-2020 16:05:50 UTC] PHP   2. require() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:17
+[14-Apr-2020 16:05:50 UTC] PHP   3. wp() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-blog-header.php:16
+[14-Apr-2020 16:05:50 UTC] PHP   4. WP->main() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\functions.php:1274
+[14-Apr-2020 16:05:50 UTC] PHP   5. WP->parse_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:735
+[14-Apr-2020 16:05:50 UTC] PHP   6. do_action_ref_array() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:388
+[14-Apr-2020 16:05:50 UTC] PHP   7. WP_Hook->do_action() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\plugin.php:544
+[14-Apr-2020 16:05:50 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:311
+[14-Apr-2020 16:05:50 UTC] PHP   9. rest_api_loaded() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:287
+[14-Apr-2020 16:05:50 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php:306
+[14-Apr-2020 16:05:50 UTC] PHP  11. WP_REST_Server->send_headers() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api\class-wp-rest-server.php:374
+[14-Apr-2020 16:05:50 UTC] PHP  12. WP_REST_Server->send_header() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api\class-wp-rest-server.php:1349
+[14-Apr-2020 16:05:50 UTC] PHP  13. header() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api\class-wp-rest-server.php:1337
+[14-Apr-2020 16:05:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\post.php:3984) in C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php on line 590
+[14-Apr-2020 16:05:50 UTC] PHP Stack trace:
+[14-Apr-2020 16:05:50 UTC] PHP   1. {main}() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:0
+[14-Apr-2020 16:05:50 UTC] PHP   2. require() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:17
+[14-Apr-2020 16:05:50 UTC] PHP   3. wp() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-blog-header.php:16
+[14-Apr-2020 16:05:50 UTC] PHP   4. WP->main() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\functions.php:1274
+[14-Apr-2020 16:05:50 UTC] PHP   5. WP->parse_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:735
+[14-Apr-2020 16:05:50 UTC] PHP   6. do_action_ref_array() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:388
+[14-Apr-2020 16:05:50 UTC] PHP   7. WP_Hook->do_action() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\plugin.php:544
+[14-Apr-2020 16:05:50 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:311
+[14-Apr-2020 16:05:50 UTC] PHP   9. rest_api_loaded() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:287
+[14-Apr-2020 16:05:50 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php:306
+[14-Apr-2020 16:05:50 UTC] PHP  11. apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api\class-wp-rest-server.php:393
+[14-Apr-2020 16:05:50 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\plugin.php:206
+[14-Apr-2020 16:05:50 UTC] PHP  13. rest_send_cors_headers() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:289
+[14-Apr-2020 16:05:50 UTC] PHP  14. header() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php:590
+[14-Apr-2020 16:05:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\post.php:3984) in C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php on line 591
+[14-Apr-2020 16:05:50 UTC] PHP Stack trace:
+[14-Apr-2020 16:05:50 UTC] PHP   1. {main}() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:0
+[14-Apr-2020 16:05:50 UTC] PHP   2. require() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:17
+[14-Apr-2020 16:05:50 UTC] PHP   3. wp() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-blog-header.php:16
+[14-Apr-2020 16:05:50 UTC] PHP   4. WP->main() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\functions.php:1274
+[14-Apr-2020 16:05:50 UTC] PHP   5. WP->parse_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:735
+[14-Apr-2020 16:05:50 UTC] PHP   6. do_action_ref_array() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:388
+[14-Apr-2020 16:05:50 UTC] PHP   7. WP_Hook->do_action() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\plugin.php:544
+[14-Apr-2020 16:05:50 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:311
+[14-Apr-2020 16:05:50 UTC] PHP   9. rest_api_loaded() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:287
+[14-Apr-2020 16:05:50 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php:306
+[14-Apr-2020 16:05:50 UTC] PHP  11. apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api\class-wp-rest-server.php:393
+[14-Apr-2020 16:05:50 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\plugin.php:206
+[14-Apr-2020 16:05:50 UTC] PHP  13. rest_send_cors_headers() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:289
+[14-Apr-2020 16:05:50 UTC] PHP  14. header() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php:591
+[14-Apr-2020 16:05:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\post.php:3984) in C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php on line 592
+[14-Apr-2020 16:05:50 UTC] PHP Stack trace:
+[14-Apr-2020 16:05:50 UTC] PHP   1. {main}() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:0
+[14-Apr-2020 16:05:50 UTC] PHP   2. require() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:17
+[14-Apr-2020 16:05:50 UTC] PHP   3. wp() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-blog-header.php:16
+[14-Apr-2020 16:05:50 UTC] PHP   4. WP->main() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\functions.php:1274
+[14-Apr-2020 16:05:50 UTC] PHP   5. WP->parse_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:735
+[14-Apr-2020 16:05:50 UTC] PHP   6. do_action_ref_array() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:388
+[14-Apr-2020 16:05:50 UTC] PHP   7. WP_Hook->do_action() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\plugin.php:544
+[14-Apr-2020 16:05:50 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:311
+[14-Apr-2020 16:05:50 UTC] PHP   9. rest_api_loaded() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:287
+[14-Apr-2020 16:05:50 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php:306
+[14-Apr-2020 16:05:50 UTC] PHP  11. apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api\class-wp-rest-server.php:393
+[14-Apr-2020 16:05:50 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\plugin.php:206
+[14-Apr-2020 16:05:50 UTC] PHP  13. rest_send_cors_headers() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:289
+[14-Apr-2020 16:05:50 UTC] PHP  14. header() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php:592
+[14-Apr-2020 16:05:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\post.php:3984) in C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php on line 593
+[14-Apr-2020 16:05:50 UTC] PHP Stack trace:
+[14-Apr-2020 16:05:50 UTC] PHP   1. {main}() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:0
+[14-Apr-2020 16:05:50 UTC] PHP   2. require() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:17
+[14-Apr-2020 16:05:50 UTC] PHP   3. wp() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-blog-header.php:16
+[14-Apr-2020 16:05:50 UTC] PHP   4. WP->main() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\functions.php:1274
+[14-Apr-2020 16:05:50 UTC] PHP   5. WP->parse_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:735
+[14-Apr-2020 16:05:50 UTC] PHP   6. do_action_ref_array() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:388
+[14-Apr-2020 16:05:50 UTC] PHP   7. WP_Hook->do_action() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\plugin.php:544
+[14-Apr-2020 16:05:50 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:311
+[14-Apr-2020 16:05:50 UTC] PHP   9. rest_api_loaded() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:287
+[14-Apr-2020 16:05:50 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php:306
+[14-Apr-2020 16:05:50 UTC] PHP  11. apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api\class-wp-rest-server.php:393
+[14-Apr-2020 16:05:50 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\plugin.php:206
+[14-Apr-2020 16:05:50 UTC] PHP  13. rest_send_cors_headers() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:289
+[14-Apr-2020 16:05:50 UTC] PHP  14. header() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php:593
+[14-Apr-2020 16:06:56 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-content\themes\fictional-university-theme\inc\like-route.php on line 21
+[14-Apr-2020 16:07:01 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-content\themes\fictional-university-theme\inc\like-route.php on line 21
+[14-Apr-2020 16:13:11 UTC] PHP Warning:  Use of undefined constant data - assumed 'data' (this will throw an Error in a future version of PHP) in C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-content\themes\fictional-university-theme\inc\like-route.php on line 18
+[14-Apr-2020 16:13:11 UTC] PHP Stack trace:
+[14-Apr-2020 16:13:11 UTC] PHP   1. {main}() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:0
+[14-Apr-2020 16:13:11 UTC] PHP   2. require() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:17
+[14-Apr-2020 16:13:11 UTC] PHP   3. wp() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-blog-header.php:16
+[14-Apr-2020 16:13:11 UTC] PHP   4. WP->main() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\functions.php:1274
+[14-Apr-2020 16:13:11 UTC] PHP   5. WP->parse_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:735
+[14-Apr-2020 16:13:11 UTC] PHP   6. do_action_ref_array() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:388
+[14-Apr-2020 16:13:11 UTC] PHP   7. WP_Hook->do_action() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\plugin.php:544
+[14-Apr-2020 16:13:11 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:311
+[14-Apr-2020 16:13:11 UTC] PHP   9. rest_api_loaded() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:287
+[14-Apr-2020 16:13:11 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php:306
+[14-Apr-2020 16:13:11 UTC] PHP  11. WP_REST_Server->dispatch() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api\class-wp-rest-server.php:342
+[14-Apr-2020 16:13:11 UTC] PHP  12. createLike() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api\class-wp-rest-server.php:1015
+[14-Apr-2020 16:13:11 UTC] PHP Warning:  Illegal string offset 'professorId' in C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-content\themes\fictional-university-theme\inc\like-route.php on line 18
+[14-Apr-2020 16:13:11 UTC] PHP Stack trace:
+[14-Apr-2020 16:13:11 UTC] PHP   1. {main}() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:0
+[14-Apr-2020 16:13:11 UTC] PHP   2. require() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:17
+[14-Apr-2020 16:13:11 UTC] PHP   3. wp() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-blog-header.php:16
+[14-Apr-2020 16:13:11 UTC] PHP   4. WP->main() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\functions.php:1274
+[14-Apr-2020 16:13:11 UTC] PHP   5. WP->parse_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:735
+[14-Apr-2020 16:13:11 UTC] PHP   6. do_action_ref_array() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:388
+[14-Apr-2020 16:13:11 UTC] PHP   7. WP_Hook->do_action() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\plugin.php:544
+[14-Apr-2020 16:13:11 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:311
+[14-Apr-2020 16:13:11 UTC] PHP   9. rest_api_loaded() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:287
+[14-Apr-2020 16:13:11 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php:306
+[14-Apr-2020 16:13:11 UTC] PHP  11. WP_REST_Server->dispatch() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api\class-wp-rest-server.php:342
+[14-Apr-2020 16:13:11 UTC] PHP  12. createLike() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api\class-wp-rest-server.php:1015
+[14-Apr-2020 16:13:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-content\themes\fictional-university-theme\inc\like-route.php:18) in C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api\class-wp-rest-server.php on line 1337
+[14-Apr-2020 16:13:11 UTC] PHP Stack trace:
+[14-Apr-2020 16:13:11 UTC] PHP   1. {main}() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:0
+[14-Apr-2020 16:13:11 UTC] PHP   2. require() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:17
+[14-Apr-2020 16:13:11 UTC] PHP   3. wp() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-blog-header.php:16
+[14-Apr-2020 16:13:11 UTC] PHP   4. WP->main() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\functions.php:1274
+[14-Apr-2020 16:13:11 UTC] PHP   5. WP->parse_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:735
+[14-Apr-2020 16:13:11 UTC] PHP   6. do_action_ref_array() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:388
+[14-Apr-2020 16:13:11 UTC] PHP   7. WP_Hook->do_action() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\plugin.php:544
+[14-Apr-2020 16:13:11 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:311
+[14-Apr-2020 16:13:11 UTC] PHP   9. rest_api_loaded() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:287
+[14-Apr-2020 16:13:11 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php:306
+[14-Apr-2020 16:13:11 UTC] PHP  11. WP_REST_Server->send_headers() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api\class-wp-rest-server.php:374
+[14-Apr-2020 16:13:11 UTC] PHP  12. WP_REST_Server->send_header() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api\class-wp-rest-server.php:1349
+[14-Apr-2020 16:13:11 UTC] PHP  13. header() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api\class-wp-rest-server.php:1337
+[14-Apr-2020 16:13:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-content\themes\fictional-university-theme\inc\like-route.php:18) in C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php on line 590
+[14-Apr-2020 16:13:11 UTC] PHP Stack trace:
+[14-Apr-2020 16:13:11 UTC] PHP   1. {main}() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:0
+[14-Apr-2020 16:13:11 UTC] PHP   2. require() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:17
+[14-Apr-2020 16:13:11 UTC] PHP   3. wp() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-blog-header.php:16
+[14-Apr-2020 16:13:11 UTC] PHP   4. WP->main() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\functions.php:1274
+[14-Apr-2020 16:13:11 UTC] PHP   5. WP->parse_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:735
+[14-Apr-2020 16:13:11 UTC] PHP   6. do_action_ref_array() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:388
+[14-Apr-2020 16:13:11 UTC] PHP   7. WP_Hook->do_action() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\plugin.php:544
+[14-Apr-2020 16:13:11 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:311
+[14-Apr-2020 16:13:11 UTC] PHP   9. rest_api_loaded() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:287
+[14-Apr-2020 16:13:11 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php:306
+[14-Apr-2020 16:13:11 UTC] PHP  11. apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api\class-wp-rest-server.php:393
+[14-Apr-2020 16:13:11 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\plugin.php:206
+[14-Apr-2020 16:13:11 UTC] PHP  13. rest_send_cors_headers() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:289
+[14-Apr-2020 16:13:11 UTC] PHP  14. header() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php:590
+[14-Apr-2020 16:13:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-content\themes\fictional-university-theme\inc\like-route.php:18) in C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php on line 591
+[14-Apr-2020 16:13:11 UTC] PHP Stack trace:
+[14-Apr-2020 16:13:11 UTC] PHP   1. {main}() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:0
+[14-Apr-2020 16:13:11 UTC] PHP   2. require() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:17
+[14-Apr-2020 16:13:11 UTC] PHP   3. wp() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-blog-header.php:16
+[14-Apr-2020 16:13:11 UTC] PHP   4. WP->main() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\functions.php:1274
+[14-Apr-2020 16:13:11 UTC] PHP   5. WP->parse_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:735
+[14-Apr-2020 16:13:11 UTC] PHP   6. do_action_ref_array() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:388
+[14-Apr-2020 16:13:11 UTC] PHP   7. WP_Hook->do_action() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\plugin.php:544
+[14-Apr-2020 16:13:11 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:311
+[14-Apr-2020 16:13:11 UTC] PHP   9. rest_api_loaded() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:287
+[14-Apr-2020 16:13:11 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php:306
+[14-Apr-2020 16:13:11 UTC] PHP  11. apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api\class-wp-rest-server.php:393
+[14-Apr-2020 16:13:11 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\plugin.php:206
+[14-Apr-2020 16:13:11 UTC] PHP  13. rest_send_cors_headers() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:289
+[14-Apr-2020 16:13:11 UTC] PHP  14. header() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php:591
+[14-Apr-2020 16:13:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-content\themes\fictional-university-theme\inc\like-route.php:18) in C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php on line 592
+[14-Apr-2020 16:13:11 UTC] PHP Stack trace:
+[14-Apr-2020 16:13:11 UTC] PHP   1. {main}() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:0
+[14-Apr-2020 16:13:11 UTC] PHP   2. require() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:17
+[14-Apr-2020 16:13:11 UTC] PHP   3. wp() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-blog-header.php:16
+[14-Apr-2020 16:13:11 UTC] PHP   4. WP->main() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\functions.php:1274
+[14-Apr-2020 16:13:11 UTC] PHP   5. WP->parse_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:735
+[14-Apr-2020 16:13:11 UTC] PHP   6. do_action_ref_array() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:388
+[14-Apr-2020 16:13:11 UTC] PHP   7. WP_Hook->do_action() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\plugin.php:544
+[14-Apr-2020 16:13:11 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:311
+[14-Apr-2020 16:13:11 UTC] PHP   9. rest_api_loaded() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:287
+[14-Apr-2020 16:13:11 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php:306
+[14-Apr-2020 16:13:11 UTC] PHP  11. apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api\class-wp-rest-server.php:393
+[14-Apr-2020 16:13:11 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\plugin.php:206
+[14-Apr-2020 16:13:11 UTC] PHP  13. rest_send_cors_headers() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:289
+[14-Apr-2020 16:13:11 UTC] PHP  14. header() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php:592
+[14-Apr-2020 16:13:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-content\themes\fictional-university-theme\inc\like-route.php:18) in C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php on line 593
+[14-Apr-2020 16:13:11 UTC] PHP Stack trace:
+[14-Apr-2020 16:13:11 UTC] PHP   1. {main}() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:0
+[14-Apr-2020 16:13:11 UTC] PHP   2. require() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:17
+[14-Apr-2020 16:13:11 UTC] PHP   3. wp() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-blog-header.php:16
+[14-Apr-2020 16:13:11 UTC] PHP   4. WP->main() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\functions.php:1274
+[14-Apr-2020 16:13:11 UTC] PHP   5. WP->parse_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:735
+[14-Apr-2020 16:13:11 UTC] PHP   6. do_action_ref_array() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:388
+[14-Apr-2020 16:13:11 UTC] PHP   7. WP_Hook->do_action() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\plugin.php:544
+[14-Apr-2020 16:13:11 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:311
+[14-Apr-2020 16:13:11 UTC] PHP   9. rest_api_loaded() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:287
+[14-Apr-2020 16:13:11 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php:306
+[14-Apr-2020 16:13:11 UTC] PHP  11. apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api\class-wp-rest-server.php:393
+[14-Apr-2020 16:13:11 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\plugin.php:206
+[14-Apr-2020 16:13:11 UTC] PHP  13. rest_send_cors_headers() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:289
+[14-Apr-2020 16:13:11 UTC] PHP  14. header() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php:593
+[14-Apr-2020 16:14:02 UTC] PHP Warning:  Use of undefined constant data - assumed 'data' (this will throw an Error in a future version of PHP) in C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-content\themes\fictional-university-theme\inc\like-route.php on line 18
+[14-Apr-2020 16:14:02 UTC] PHP Stack trace:
+[14-Apr-2020 16:14:02 UTC] PHP   1. {main}() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:0
+[14-Apr-2020 16:14:02 UTC] PHP   2. require() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:17
+[14-Apr-2020 16:14:02 UTC] PHP   3. wp() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-blog-header.php:16
+[14-Apr-2020 16:14:02 UTC] PHP   4. WP->main() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\functions.php:1274
+[14-Apr-2020 16:14:02 UTC] PHP   5. WP->parse_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:735
+[14-Apr-2020 16:14:02 UTC] PHP   6. do_action_ref_array() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:388
+[14-Apr-2020 16:14:02 UTC] PHP   7. WP_Hook->do_action() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\plugin.php:544
+[14-Apr-2020 16:14:02 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:311
+[14-Apr-2020 16:14:02 UTC] PHP   9. rest_api_loaded() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:287
+[14-Apr-2020 16:14:02 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php:306
+[14-Apr-2020 16:14:02 UTC] PHP  11. WP_REST_Server->dispatch() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api\class-wp-rest-server.php:342
+[14-Apr-2020 16:14:02 UTC] PHP  12. createLike() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api\class-wp-rest-server.php:1015
+[14-Apr-2020 16:14:02 UTC] PHP Warning:  Illegal string offset 'professorId' in C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-content\themes\fictional-university-theme\inc\like-route.php on line 18
+[14-Apr-2020 16:14:02 UTC] PHP Stack trace:
+[14-Apr-2020 16:14:02 UTC] PHP   1. {main}() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:0
+[14-Apr-2020 16:14:02 UTC] PHP   2. require() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:17
+[14-Apr-2020 16:14:02 UTC] PHP   3. wp() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-blog-header.php:16
+[14-Apr-2020 16:14:02 UTC] PHP   4. WP->main() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\functions.php:1274
+[14-Apr-2020 16:14:02 UTC] PHP   5. WP->parse_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:735
+[14-Apr-2020 16:14:02 UTC] PHP   6. do_action_ref_array() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:388
+[14-Apr-2020 16:14:02 UTC] PHP   7. WP_Hook->do_action() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\plugin.php:544
+[14-Apr-2020 16:14:02 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:311
+[14-Apr-2020 16:14:02 UTC] PHP   9. rest_api_loaded() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:287
+[14-Apr-2020 16:14:02 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php:306
+[14-Apr-2020 16:14:02 UTC] PHP  11. WP_REST_Server->dispatch() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api\class-wp-rest-server.php:342
+[14-Apr-2020 16:14:02 UTC] PHP  12. createLike() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api\class-wp-rest-server.php:1015
+[14-Apr-2020 16:14:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-content\themes\fictional-university-theme\inc\like-route.php:18) in C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api\class-wp-rest-server.php on line 1337
+[14-Apr-2020 16:14:02 UTC] PHP Stack trace:
+[14-Apr-2020 16:14:02 UTC] PHP   1. {main}() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:0
+[14-Apr-2020 16:14:02 UTC] PHP   2. require() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:17
+[14-Apr-2020 16:14:02 UTC] PHP   3. wp() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-blog-header.php:16
+[14-Apr-2020 16:14:02 UTC] PHP   4. WP->main() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\functions.php:1274
+[14-Apr-2020 16:14:02 UTC] PHP   5. WP->parse_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:735
+[14-Apr-2020 16:14:02 UTC] PHP   6. do_action_ref_array() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:388
+[14-Apr-2020 16:14:02 UTC] PHP   7. WP_Hook->do_action() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\plugin.php:544
+[14-Apr-2020 16:14:02 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:311
+[14-Apr-2020 16:14:02 UTC] PHP   9. rest_api_loaded() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:287
+[14-Apr-2020 16:14:02 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php:306
+[14-Apr-2020 16:14:02 UTC] PHP  11. WP_REST_Server->send_headers() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api\class-wp-rest-server.php:374
+[14-Apr-2020 16:14:02 UTC] PHP  12. WP_REST_Server->send_header() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api\class-wp-rest-server.php:1349
+[14-Apr-2020 16:14:02 UTC] PHP  13. header() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api\class-wp-rest-server.php:1337
+[14-Apr-2020 16:14:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-content\themes\fictional-university-theme\inc\like-route.php:18) in C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php on line 590
+[14-Apr-2020 16:14:02 UTC] PHP Stack trace:
+[14-Apr-2020 16:14:02 UTC] PHP   1. {main}() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:0
+[14-Apr-2020 16:14:02 UTC] PHP   2. require() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:17
+[14-Apr-2020 16:14:02 UTC] PHP   3. wp() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-blog-header.php:16
+[14-Apr-2020 16:14:02 UTC] PHP   4. WP->main() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\functions.php:1274
+[14-Apr-2020 16:14:02 UTC] PHP   5. WP->parse_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:735
+[14-Apr-2020 16:14:02 UTC] PHP   6. do_action_ref_array() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:388
+[14-Apr-2020 16:14:02 UTC] PHP   7. WP_Hook->do_action() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\plugin.php:544
+[14-Apr-2020 16:14:02 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:311
+[14-Apr-2020 16:14:02 UTC] PHP   9. rest_api_loaded() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:287
+[14-Apr-2020 16:14:02 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php:306
+[14-Apr-2020 16:14:02 UTC] PHP  11. apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api\class-wp-rest-server.php:393
+[14-Apr-2020 16:14:02 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\plugin.php:206
+[14-Apr-2020 16:14:02 UTC] PHP  13. rest_send_cors_headers() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:289
+[14-Apr-2020 16:14:02 UTC] PHP  14. header() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php:590
+[14-Apr-2020 16:14:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-content\themes\fictional-university-theme\inc\like-route.php:18) in C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php on line 591
+[14-Apr-2020 16:14:02 UTC] PHP Stack trace:
+[14-Apr-2020 16:14:02 UTC] PHP   1. {main}() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:0
+[14-Apr-2020 16:14:02 UTC] PHP   2. require() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:17
+[14-Apr-2020 16:14:02 UTC] PHP   3. wp() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-blog-header.php:16
+[14-Apr-2020 16:14:02 UTC] PHP   4. WP->main() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\functions.php:1274
+[14-Apr-2020 16:14:02 UTC] PHP   5. WP->parse_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:735
+[14-Apr-2020 16:14:02 UTC] PHP   6. do_action_ref_array() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:388
+[14-Apr-2020 16:14:02 UTC] PHP   7. WP_Hook->do_action() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\plugin.php:544
+[14-Apr-2020 16:14:02 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:311
+[14-Apr-2020 16:14:02 UTC] PHP   9. rest_api_loaded() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:287
+[14-Apr-2020 16:14:02 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php:306
+[14-Apr-2020 16:14:02 UTC] PHP  11. apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api\class-wp-rest-server.php:393
+[14-Apr-2020 16:14:02 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\plugin.php:206
+[14-Apr-2020 16:14:02 UTC] PHP  13. rest_send_cors_headers() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:289
+[14-Apr-2020 16:14:02 UTC] PHP  14. header() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php:591
+[14-Apr-2020 16:14:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-content\themes\fictional-university-theme\inc\like-route.php:18) in C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php on line 592
+[14-Apr-2020 16:14:02 UTC] PHP Stack trace:
+[14-Apr-2020 16:14:02 UTC] PHP   1. {main}() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:0
+[14-Apr-2020 16:14:02 UTC] PHP   2. require() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:17
+[14-Apr-2020 16:14:02 UTC] PHP   3. wp() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-blog-header.php:16
+[14-Apr-2020 16:14:02 UTC] PHP   4. WP->main() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\functions.php:1274
+[14-Apr-2020 16:14:02 UTC] PHP   5. WP->parse_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:735
+[14-Apr-2020 16:14:02 UTC] PHP   6. do_action_ref_array() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:388
+[14-Apr-2020 16:14:02 UTC] PHP   7. WP_Hook->do_action() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\plugin.php:544
+[14-Apr-2020 16:14:02 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:311
+[14-Apr-2020 16:14:02 UTC] PHP   9. rest_api_loaded() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:287
+[14-Apr-2020 16:14:02 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php:306
+[14-Apr-2020 16:14:02 UTC] PHP  11. apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api\class-wp-rest-server.php:393
+[14-Apr-2020 16:14:02 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\plugin.php:206
+[14-Apr-2020 16:14:02 UTC] PHP  13. rest_send_cors_headers() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:289
+[14-Apr-2020 16:14:02 UTC] PHP  14. header() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php:592
+[14-Apr-2020 16:14:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-content\themes\fictional-university-theme\inc\like-route.php:18) in C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php on line 593
+[14-Apr-2020 16:14:02 UTC] PHP Stack trace:
+[14-Apr-2020 16:14:02 UTC] PHP   1. {main}() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:0
+[14-Apr-2020 16:14:02 UTC] PHP   2. require() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\index.php:17
+[14-Apr-2020 16:14:02 UTC] PHP   3. wp() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-blog-header.php:16
+[14-Apr-2020 16:14:02 UTC] PHP   4. WP->main() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\functions.php:1274
+[14-Apr-2020 16:14:02 UTC] PHP   5. WP->parse_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:735
+[14-Apr-2020 16:14:02 UTC] PHP   6. do_action_ref_array() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp.php:388
+[14-Apr-2020 16:14:02 UTC] PHP   7. WP_Hook->do_action() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\plugin.php:544
+[14-Apr-2020 16:14:02 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:311
+[14-Apr-2020 16:14:02 UTC] PHP   9. rest_api_loaded() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:287
+[14-Apr-2020 16:14:02 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php:306
+[14-Apr-2020 16:14:02 UTC] PHP  11. apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api\class-wp-rest-server.php:393
+[14-Apr-2020 16:14:02 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\plugin.php:206
+[14-Apr-2020 16:14:02 UTC] PHP  13. rest_send_cors_headers() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\class-wp-hook.php:289
+[14-Apr-2020 16:14:02 UTC] PHP  14. header() C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-includes\rest-api.php:593
+[15-Apr-2020 05:30:30 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-content\themes\fictional-university-theme\inc\like-route.php on line 28
+[15-Apr-2020 05:30:35 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Hp 15 Notebook PC\Local Sites\amazing-college\app\public\wp-content\themes\fictional-university-theme\inc\like-route.php on line 28
